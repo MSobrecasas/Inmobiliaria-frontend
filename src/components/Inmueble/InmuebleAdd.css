@@ -1,0 +1,36 @@
+.container__add{
+    width: 80%;
+    margin: auto;
+}
+
+input{
+    font-size: 1.2rem;
+    width: 500px;
+    height: 100%;
+}
+
+select{
+    font-size: 1.2rem;
+    width:300px;
+    height: 100%;
+    margin: 1rem;
+}
+
+.buttons{
+    width: 500px;
+    margin: auto;
+    height: 50px;
+}
+
+.buttons button{
+    width: 200px;
+    margin: auto;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1C6758;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Oswald', sans-serif;
+    font-size: 1.2rem;
+}

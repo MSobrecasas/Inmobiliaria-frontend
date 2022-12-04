@@ -1,0 +1,80 @@
+
+nav{
+  margin: 27px auto 0;
+  position: relative;
+  width: 750px;
+  height: 50px;
+  background-color: #1C6758;
+  border-radius: 8px;
+  font-size: 0;
+}
+
+nav .alink{
+  line-height: 50px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+nav .animation{
+ position: absolute;
+ height: 100%;
+ top: 0;
+ z-index: 0;
+ transition: all .5s ease 0s;
+ border-radius: 8px;
+}
+
+.alink:nth-child(1){
+  width: 150px;
+}
+.alink:nth-child(2){
+  width: 150px;
+}
+.alink:nth-child(3){
+  width: 150px;
+}
+.alink:nth-child(4){
+  width: 150px;
+}
+.alink:nth-child(5){
+  width: 150px;
+}
+
+nav .start-home, .alink:nth-child(1):hover~.animation{
+  width: 150px;
+  left: 0;
+  background-color: #6EBF8B;
+}
+nav .start-clientes, .alink:nth-child(2):hover~.animation{
+  width: 150px;
+  left: 150px;
+  background-color: #6EBF8B;
+}
+nav .start-inmuebles, .alink:nth-child(3):hover~.animation{
+  width: 150px;
+  left: 300px;
+  background-color: #6EBF8B;
+}
+nav .start-ventas, .alink:nth-child(4):hover~.animation{
+  width: 150px;
+  left: 450px;
+  background-color: #6EBF8B;
+}
+nav .start-otros, .alink:nth-child(5):hover~.animation{
+  width: 150px;
+  left: 600px;
+  background-color: #6EBF8B;
+}
+
+
+span{
+  color: #2bd6b4
+}

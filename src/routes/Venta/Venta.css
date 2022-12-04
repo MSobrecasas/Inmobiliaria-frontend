@@ -1,0 +1,19 @@
+.container__venta{
+    padding: 1rem;
+    position: relative;
+    border-radius: 5px;
+    border-top: 2px solid #002200;
+    box-shadow: 10px 10px 30px -2px rgba(253, 136, 136,0.25);
+    background-color: rgba(24, 68, 11, 0.404);
+    width: auto;
+
+}
+.delete__btn{
+    font-size: 2.5rem;
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}

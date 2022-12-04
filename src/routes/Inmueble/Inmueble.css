@@ -1,0 +1,35 @@
+.container__inmueble {
+    padding: 1rem;
+    position: relative;
+    border-radius: 5px;
+    border-top: 2px solid #002200;
+    box-shadow: 10px 10px 30px -2px rgba(253, 136, 136, 0.25);
+    background-color: rgba(24, 68, 11, 0.404);
+    width: auto;
+}
+
+.delete__btn__in {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.container__inmueble h3 {
+    padding: 0;
+}
+
+.edit__button {
+    position: absolute;
+    bottom: 0;
+    right: 0rem;
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
